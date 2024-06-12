@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web HTML5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <!-----------------------Menú Principal Responsivo---------------------->
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="bi bi-list"></i></a>
+            <a href="#home" class="active">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Menú del día
+                <i class="bi bi-caret-down-square"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Lunes</a>
+                <a href="#">Martes</a>
+                <a href="#">Miercoles</a>
+                <a href="#">Jueves</a>
+                <a href="#">Viernes</a>
+               </div>
+             </div>
+            <a href="#catalogo">Carrito</a>
+            <a href="#about">Área del cliente</a>
+            <a href="#contact">Contacto</a>
+        </div>
+        <!------------------------------------------------------------------------>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+            <button id="bto1" class="btos"><i class="bi bi-bookmark-heart-fill"></i></button>
+            <button class="btos"><i class="bi bi-cart4"></i></button>
+            <button class="btos"><i class="bi bi-person"></i></button>
+        </nav>
+    </header>
+    <main>
+        <div>Slider</div>
+        <section>
+            <div>Categoria 1</div>
+            <div>Categoria 2</div>
+            <div>Categoria 3</div>
+            <div>Categoria 4</div>
+            <div>Categoria 5</div>
+        </section>
+        <section>Otra información</section>
+        <nav>
+            <button>Otro menu</button>
+        </nav>
+    </main>
+    <footer>Pie de página</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
